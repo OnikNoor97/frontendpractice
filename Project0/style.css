@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column; /* Make html elements go vertical instead of horizional */
+    align-items: center; /* Make sure content is centred horizonitally */
+    justify-content: center; /* Make sure the content is centred vertically */
+    height: 100vh; /* Viewpoint height (Based on the height of the view the user is doing) */
+    overflow: hidden; /* Scrollbars to be hidden */
+    margin: 0;
+}
